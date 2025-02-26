@@ -23,6 +23,26 @@ Task Master Pro is a task management application built using Java. It provides a
 
 ## Installation
 
+```
+mvn clean package
+```
+```
+docker build -t cavinton/devtaskmaster:latest .
+```
+```
+docker run -d -p 8080:8080 --name devtaskmaster cavinton/devtaskmaster:latest
+```
+```
+docker ps
+```
+```
+docker stop devtaskmaster
+```
+
+```
+[convert]::ToBase64String([System.Text.Encoding]::UTF8.GetBytes((Get-Content "$env:USERPROFILE\.kube\config" -Raw))) | Out-File kubeconfig_base64.txt
+```
+
 ### Prerequisites
 
 - Java Development Kit (JDK) 17 or later
