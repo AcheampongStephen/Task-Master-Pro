@@ -1,6 +1,6 @@
 # Task Master Pro
 
-Welcome to Task Master Pro, a comprehensive Java application designed to manage tasks efficiently. This project is developed and maintained by DevOps Shack, a YouTube channel dedicated to DevOps tutorials and best practices.
+Welcome to Task Master Pro, a comprehensive Java application designed to manage tasks efficiently. This project is developed and maintained by Stephen Acheampong.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -34,7 +34,7 @@ Task Master Pro is a task management application built using Java. It provides a
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/jaiswaladi246/Task-Master-Pro.git
+    git clone https://github.com/AcheampongStephen/Task-Master-Pro.git
     cd Task-Master-Pro
     ```
 
